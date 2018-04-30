@@ -1,0 +1,38 @@
+{
+	"userId": 0,
+	"detectionType": 0,
+	"geoJson": {
+		"type": "Feature",
+		"properties": {
+			"id": "R-0-63d2326e-edcb-c78c-a724-b99d9dbae506",
+			"name": "AOI 2",
+			"changes":"false",
+			"or-path": "http://13.59.83.47:8002/0/requests/R-0-63d2326e-edcb-c78c-a724-b99d9dbae506/images/or-image.gif",
+			"new-path": "",
+			"ch-path": ""
+		},
+		"geometry": {
+			"type": "Polygon",
+			"coordinates": [
+				[	
+					[
+						-0.14505386352539065,
+						51.540036182553806
+					],
+					[
+						-0.19586563110351565,
+						51.51803669675131
+					],
+					[
+						-0.09922027587890625,
+						51.53288217644661
+					],
+					[
+						-0.14505386352539065,
+						51.540036182553806
+					]
+				]
+			]
+		}
+	}
+}

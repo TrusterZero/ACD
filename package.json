@@ -1,0 +1,23 @@
+{
+  "name": "acd",
+  "version": "1.0.0",
+  "description": "Adaptable Change Detection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jurmen Hughes",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser-json": "^1.9.2",
+    "cookies": "^0.7.1",
+    "download-file": "^0.1.5",
+    "express": "^4.16.3",
+    "jimp": "^0.2.28",
+    "python": "0.0.4",
+    "request": "^2.85.0",
+    "rimraf": "^2.6.2",
+    "uuid": "^3.2.1"
+  }
+}

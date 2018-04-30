@@ -1,0 +1,142 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin="" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <div id="map" class="map"></div>
+
+
+  <div class="buttonHolder">
+    <ul id="aoiList" class="userInterface">
+    </ul>
+  </div>
+  <!-- fadout out background with this -->
+  <div id="shader"></div>
+
+  <!-- login prompt -->
+  <div id="loginPrompt" class="promptMessageHolder">
+    <div class="promptMessage">
+      <h2>Please fill in your API key to continue</h2>
+      <input type="password" id=apiKeyTextBox>
+      <div class="buttonHolder">
+        <input class="choiceCheckSelection" id="loginButton" type="button" name="LoginButton" value="Login">
+      </div>
+    </div>
+  </div>
+
+  <!-- pop up message used to confirm impactfull decisions -->
+  <div id="choiceCheckHolder" class="promptMessageHolder">
+    <div id="choiceCheck" class="userInterface promptMessage">
+      <p id="choiceCheckMessage"></p>
+      <div class="buttonHolder">
+        <input class="choiceCheckSelection" id="choiceCheckYes" type="button" name="choiceCheckYes" value="Yes">
+        <input class="choiceCheckSelection" id="choiceCheckNo" type="button" name="choiceCheckNo" value="No">
+      </div>
+    </div>
+  </div>
+  <!---->
+
+  <!-- pop up when AOI is selected-->
+  <div class="aoiInfo userInterface" id="aoiInfo">
+    <div>
+      <h1 id="new-aoiInfoTitle" class="aoiInfoTitle">New AOI</h1>
+    </div>
+    <!-- will contain the details of the AOI-->
+    <div class="aoiDetails">
+      <h1 id="noData">No data collected yet.</h1>
+      <div id="aoiInfoText">
+        <p>Detection Type: </p>
+        <p>Percentage change: </p>
+        <p>Date detected: </p>
+      </div>
+      <div class="buttonHolder">
+        <input id="deleteAoi" type="button" name="deleteAoi" value="Delete">
+        <input id="showChanges" type="button" name="deleteAoi" value="Changes">
+        <input id="closeAoi" type="button" name="closeAoi" value="Close">
+      </div>
+    </div>
+    <!---->
+    <!-- if the AOI is new this form appears instead of the details-->
+    <form id="newAoiForm">
+
+      <p>Name:</p>
+      <input type="text" id="aoiName" max="11" name="aoiName">
+      <br>
+      <p>Detection type:</p>
+      <div class="checkFrequencyOptions">
+        <input type="radio" name="detectionType" value="0" checked>
+        <p>Difference</p>
+        <input type="radio" name="detectionType" value="1">
+        <p>NDVI</p>
+      <p>Check frequency:</p>
+      <div class="checkFrequencyOptions">
+        <input type="radio" name="timeInterval" value="day" checked>
+        <p>Daily</p>
+        <input type="radio" name="timeInterval" value="week">
+        <p>Weekly</p>
+        <input type="radio" name="timeInterval" value="month">
+        <p>Monthly</p>
+      </div>
+      <br>
+      <div class="buttonHolder">
+        <input id="saveAoi" type="button" name="saveAoi" value="save">
+        <input id="cancelAoi" type="button" name="cancelAoi" value="cancel">
+      </div>
+  </div>
+  </form>
+  <!---->
+  </div>
+  <!---->
+
+  <!--display selected Image-->
+  <div class="full-image-box">
+    <h1 class="aoiInfoTitle">New AOI</h1>
+    <hr>
+    <div class="full-image-container">
+      <img id="satImage" class=".panzoom-elements" src="">
+      <div id="satOptionsHolder" class="buttonHolder">
+        <input id="originalImageButton" type="button" name="originalImageButton" value="O">
+        <input id="changesImageButton" type="button" name="changesImageButton" value="C">
+        <input id="newImageButton" type="button" name="newImageButton" value="N">
+      </div>
+    </div>
+    <div class="buttonHolder">
+      <input id="closeFullImage" type="button" name="closeFullImage" value="Close">
+    </div>
+  </div>
+
+
+  <!-- Aoi selection button || Mid right-->
+  <div class="options userInterface">
+    <div class="optionButton" onclick="undoSelection()">
+      <img class="userInterface" id="undo-selection" src='images/undo.png' alt="">
+    </div>
+    <div class="optionButton" onclick="switchViewMode()">
+      <img class="userInterface" id="aoi-selection" src='images/aoi.png' alt="">
+    </div>
+  </div>
+  <!--Aoi selection button end -->
+
+  <!-- Snackbar used for notifications -->
+  <div id="snackbar">
+    <p id="message"></p>
+  </div>
+  <!---->
+
+</body>
+<script src="https://openlayers.org/en/v4.6.4/build/ol.js" type="text/javascript"></script>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" type="text/javascript" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+  crossorigin=""></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
+<script src="jquery.panzoom.js" type="text/javascript"></script>
+<script src="jquery.mousewheel.js" type="text/javascript"></script>
+<script src="aoi.js" type="text/javascript"></script>
+<script src="event.js" type="text/javascript"></script>
+<script src="api.js" type="text/javascript"></script>
+</html>

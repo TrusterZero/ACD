@@ -1,0 +1,46 @@
+{
+	"userId": 0,
+	"detectionType": 0,
+	"geoJson": {
+		"type": "Feature",
+		"properties": {
+			"id": "R-0-2113870d-f3da-e822-6025-df3b823c20ff",
+			"name": "AOI 3",
+			"changes": "true",
+			"or-path": "http://13.59.83.47:8002/users/0/requests/R-0-2113870d-f3da-e822-6025-df3b823c20ff/images/or-image.png",
+			"new-path": "http://13.59.83.47:8002/users/0/requests/R-0-2113870d-f3da-e822-6025-df3b823c20ff/images/new-image.png",
+			"ch-path": "http://13.59.83.47:8002/users/0/requests/R-0-2113870d-f3da-e822-6025-df3b823c20ff/images/ch-image.png"
+		},
+		"geometry": {
+			"type": "Polygon",
+			"coordinates": [
+				[
+					[
+						-0.028924942016601566,
+						51.54046325182698
+					],
+					[
+						-0.036649703979492194,
+						51.52049347721828
+					],
+					[
+						-0.018625259399414066,
+						51.52166841233309
+					],
+					[
+						-0.021028518676757816,
+						51.536726259799316
+					],
+					[
+						-0.023775100708007812,
+						51.540890317092455
+					],
+					[
+						-0.028924942016601566,
+						51.54046325182698
+					]
+				]
+			]
+		}
+	}
+}

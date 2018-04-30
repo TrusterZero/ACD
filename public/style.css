@@ -1,0 +1,314 @@
+html {
+	font-family: 'Roboto', sans-serif;
+	padding:0;
+	overflow: hidden;
+}
+
+html p {
+	pointer-events: none;
+	-webkit-user-select: none;
+	/* Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+/Edge */
+	user-select: none;
+	/* Standard */
+}
+
+html h1 {
+	pointer-events: none;
+	-webkit-user-select: none;
+	/* Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+/Edge */
+	user-select: none;
+	/* Standard */
+}
+
+#shader {
+	display: none;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-color: rgba(41, 41, 41, 0.2);
+	z-index: 11000;
+}
+#map {
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.userInterface {
+	z-index: 10000;
+}
+
+.promptMessageHolder {
+	display: none;
+	position: absolute;
+	left:50%;
+	top:40%;
+	width:20%;
+	z-index:12000
+}
+#aoiList {
+	background-color: rgba(41, 41, 41, 0.6);
+	border-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	left:20px;
+	top:20px;
+	width: 150px;
+	color:white;
+	text-align: center;
+	list-style: none;
+	text-align: center;
+}
+.buttonHolder #aoiList  input {
+	
+	width: 80%;
+	margin: 2px;
+	padding: 10px;
+}
+.promptMessage {
+	background-color: rgba(41, 41, 41, 0.6);
+	border-radius: 5px;
+	padding: 10px;
+	position: relative;
+	left:-50%;
+	color:white;
+	text-align: center;
+}
+
+.full-image-box {
+	z-index: 11000;
+	position: absolute;
+	display: none;
+	width: 100%;
+	height:100%;
+	background-color: rgba(41, 41, 41, 0.6);
+	text-align: center;
+}
+.full-image-box #closeFullImage{
+	width:5%;
+	margin: 3% 50%;
+}
+.full-image-container{
+	height: 70%;
+	vertical-align: middle;
+	width: 100%;
+}
+.full-image-container img{
+	display: inline-block;
+	margin: 2%;
+	vertical-align: middle;
+	width: 20%;
+	
+}
+
+#satOptionsHolder {
+	position: absolute;
+	bottom: 20px;
+	right:0;
+	z-index: 12000;
+	width: 200px;
+}
+#satOptionsHolder input {
+	border-width:2px;
+	border-style: solid;
+	width: 40px;
+	
+}
+#satOptionsHolder #originalImageButton {
+	border-color: rgb(97, 96, 96);
+}
+#satOptionsHolder #changesImageButton {
+	background-color: green;
+	border-color: green;
+}
+#satOptionsHolder #newImageButton {
+	background-color: blue;
+	border-color:blue
+}
+#satOptionsHolder #changesImageButton:hover {
+	background-color: lightgreen
+}
+#satOptionsHolder #newImageButton:hover {
+	background-color: lightblue
+}
+
+
+/*aoiInfo*/
+#aoiInfoText {
+	margin:10px;
+	background-color: rgb(97, 96, 96);
+	padding: 10px;
+}
+
+.aoiInfo {
+	display:none;
+	position: fixed;
+	top: 20%;
+	right: 10%;
+	width: 25%;
+	background-color: rgba(48, 48, 48, 0.9);
+	padding: 10px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.aoiInfo p {
+	color: white;
+	width: 50%;
+}
+
+.aoiInfo .checkFrequencyOptions input {
+	float: left;
+	margin-right: 8px;
+}
+
+.aoiInfo #aoiName {
+	padding: 2px;
+	border-radius: 3px;
+}
+
+.aoiInfo .buttonHolder {
+	width: 100%;
+	text-align: center;
+}
+.aoiDetails img {
+	display: none;
+	width:30%;
+}
+.aoiDetails ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.aoiDetails li {
+	display: inline;
+}
+.img-shader{
+	pointer-events: none;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	text-align: center;
+	z-index:1100;
+	top:0
+}
+.img-shader p{
+	text-align: center;
+	color:black
+}
+.buttonHolder input {
+	border-width: 0px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgb(97, 96, 96);
+	color: white;
+	width: 30%;
+}
+.buttonHolder input:hover {
+	background-color: white;
+	color: rgb(97, 96, 96);;
+}
+
+
+/*options*/
+
+.options {
+	position: fixed;
+	top: 50%;
+	right: 2%;
+	width: 35px;
+}
+
+/*start Aoi selection */
+
+.options img {
+	position: relative;
+	border-radius: 4px;
+	height: 20px;
+	width: 20px;
+	padding: 15%;
+	background-color: rgba(41, 41, 41, 0.6);
+	margin: auto 5px;
+}
+
+.optionButton {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#undo-selection  {
+	display: none;
+	border: solid 2px transparent
+}
+#aoi-selection {
+	border: solid 2px transparent
+}
+
+/*end Aoi selection*/
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+	visibility: hidden; /* Hidden by default. Visible on click */
+	min-width: 250px; /* Set a default minimum width */
+	margin-left: -125px; /* Divide value of min-width by 2 */
+	background-color: #333; /* Black background color */
+	color: #fff; /* White text color */
+	text-align: center; /* Centered text */
+	border-radius: 2px; /* Rounded borders */
+	padding: 16px; /* Padding */
+	position: fixed; /* Sit on top of the screen */
+	z-index: 1000; /* Add a z-index if needed */
+	left: 50%; /* Center the snackbar */
+	bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+	visibility: visible; /* Show the snackbar */
+
+/* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+However, delay the fade out process for 2.5 seconds */
+	-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+	from {bottom: 0; opacity: 0;} 
+	to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+	from {bottom: 0; opacity: 0;}
+	to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+	from {bottom: 30px; opacity: 1;} 
+	to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+	from {bottom: 30px; opacity: 1;}
+	to {bottom: 0; opacity: 0;}
+}

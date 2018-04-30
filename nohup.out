@@ -1,0 +1,589 @@
+[3;J[H[2JExample app listening on port 8002!
+./runServer.sh: line 4:  3903 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+saving: Test 31212
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-05cbe26a-19f1-06e2-980f-8ac3ad533376',
+        name: 'Test 31212' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+17f9ecd8-985e-494f-b6bf-5aa2029d42ab
+saving: bridge
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-eb054257-3588-e4d5-ca47-1e35b350fd05',
+        name: 'bridge' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+4b347b9b-1a4e-4091-be98-f98fa1a51ef6
+saving: regarding
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-cfe82c66-d70e-738f-e177-2b9f5560012e',
+        name: 'regarding' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+54917164-0168-4565-a70a-126f284d3bb8
+saving: bridge
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-eb054257-3588-e4d5-ca47-1e35b350fd05',
+        name: 'bridge' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+14a53c94-59de-42c9-b2bd-873351d3ffba
+recieved R-0-cfe82c66-d70e-738f-e177-2b9f5560012e
+deleted R-0-cfe82c66-d70e-738f-e177-2b9f5560012e
+recieved R-0-eb054257-3588-e4d5-ca47-1e35b350fd05
+deleted R-0-eb054257-3588-e4d5-ca47-1e35b350fd05
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+saving: m
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-75c978d9-41ce-0f5d-a053-2dcb49fd8906', name: 'm' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+1df0c33e-5f88-4af9-a35b-f035d131877c
+completed
+completed
+completed
+saving: m
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-75c978d9-41ce-0f5d-a053-2dcb49fd8906', name: 'm' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+73816037-b4c2-4439-a2f0-10176050555b
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+[3;J[H[2JExample app listening on port 8002!
+./runServer.sh: line 4:  1388 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+saving: yesy
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-fb31c273-da51-611d-025c-22d927ccd53a', name: 'yesy' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+0e4e6525-070d-446d-aac1-bd097db872c5
+saving: esefd
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-01076703-0be6-0fda-5324-eb8305116125',
+        name: 'esefd' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+09c5c7c1-f663-4f5e-8b5b-03d71f92a4f3
+saving: yesy
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-fb31c273-da51-611d-025c-22d927ccd53a', name: 'yesy' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+b747a308-d0fd-415d-a1bc-c399267f31b2
+saving: esefd
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-01076703-0be6-0fda-5324-eb8305116125',
+        name: 'esefd' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+done
+null
+67036bd3-6615-45fd-9c1d-2e1df9805476
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+completed
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4: 14993 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4: 15098 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4: 15155 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4: 15212 Hangup                  node server.js
+Server started
+[3;J[H[2J[3;J[H[2JExample app listening on port 8002!
+events.js:137
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8002
+    at Object._errnoException (util.js:1003:13)
+    at _exceptionWithHostPort (util.js:1024:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1496:7)
+    at Function.listen (/home/ubuntu/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/server.js:10:5)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+Server started
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4:  1435 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4:  1541 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+/home/ubuntu/runServer.sh: line 4:  1602 Hangup                  node server.js
+Server started
+[3;J[H[2JExample app listening on port 8002!
+saving: ff checke
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: 
+      { id: 'R-0-6ea063d5-895e-94b1-cf79-a8a61fdf31b6',
+        name: 'ff checke' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/36eb9b2d5d5f4a41a05ce0841c33f7b4/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: null,
+     _self: 'https://api.planet.com/data/v1/searches/36eb9b2d5d5f4a41a05ce0841c33f7b4/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: [],
+  type: 'FeatureCollection' }
+Error: No viable images found
+    at Request.request.post [as _callback] (/home/ubuntu/planet.js:77:16)
+    at Request.self.callback (/home/ubuntu/node_modules/request/request.js:186:22)
+    at Request.emit (events.js:160:13)
+    at Request.<anonymous> (/home/ubuntu/node_modules/request/request.js:1163:10)
+    at Request.emit (events.js:160:13)
+    at IncomingMessage.<anonymous> (/home/ubuntu/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:255:19)
+    at IncomingMessage.emit (events.js:165:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+recieved R-0-6ea063d5-895e-94b1-cf79-a8a61fdf31b6
+null
+deleted R-0-6ea063d5-895e-94b1-cf79-a8a61fdf31b6
+saving: test
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-c6365ca2-e0ce-f0df-564a-efb48c67443c', name: 'test' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ field: {},
+  general: [ { message: 'unknown issue with search geometry' } ] }
+/home/ubuntu/planet.js:76
+      if(body.features.length == 0){
+                       ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Request.request.post [as _callback] (/home/ubuntu/planet.js:76:24)
+    at Request.self.callback (/home/ubuntu/node_modules/request/request.js:186:22)
+    at Request.emit (events.js:160:13)
+    at Request.<anonymous> (/home/ubuntu/node_modules/request/request.js:1163:10)
+    at Request.emit (events.js:160:13)
+    at IncomingMessage.<anonymous> (/home/ubuntu/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:255:19)
+    at IncomingMessage.emit (events.js:165:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+Server started
+[3;J[H[2JExample app listening on port 8002!
+recieved R-0-c6365ca2-e0ce-f0df-564a-efb48c67443c
+null
+deleted R-0-c6365ca2-e0ce-f0df-564a-efb48c67443c
+saving: test
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-5a878fda-43b3-0fb7-6bd2-39db9be114c7', name: 'test' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ field: {},
+  general: [ { message: 'unknown issue with search geometry' } ] }
+/home/ubuntu/planet.js:76
+      if(body.features.length == 0){
+                       ^
+
+TypeError: Cannot read property 'length' of undefined
+    at Request.request.post [as _callback] (/home/ubuntu/planet.js:76:24)
+    at Request.self.callback (/home/ubuntu/node_modules/request/request.js:186:22)
+    at Request.emit (events.js:160:13)
+    at Request.<anonymous> (/home/ubuntu/node_modules/request/request.js:1163:10)
+    at Request.emit (events.js:160:13)
+    at IncomingMessage.<anonymous> (/home/ubuntu/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:255:19)
+    at IncomingMessage.emit (events.js:165:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+Server started
+[3;J[H[2JExample app listening on port 8002!
+saving: test
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-d40379e8-cfa7-2070-360f-301c94428379', name: 'test' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/a20afb1b21bd482d93698e31f1e8fee4/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: null,
+     _self: 'https://api.planet.com/data/v1/searches/a20afb1b21bd482d93698e31f1e8fee4/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: [],
+  type: 'FeatureCollection' }
+Error: No viable images found
+    at Request.request.post [as _callback] (/home/ubuntu/planet.js:81:16)
+    at Request.self.callback (/home/ubuntu/node_modules/request/request.js:186:22)
+    at Request.emit (events.js:160:13)
+    at Request.<anonymous> (/home/ubuntu/node_modules/request/request.js:1163:10)
+    at Request.emit (events.js:160:13)
+    at IncomingMessage.<anonymous> (/home/ubuntu/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:255:19)
+    at IncomingMessage.emit (events.js:165:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+recieved R-0-d40379e8-cfa7-2070-360f-301c94428379
+null
+deleted R-0-d40379e8-cfa7-2070-360f-301c94428379
+saving: name
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-067ef644-032f-9547-3bfa-75ed24ba47e0', name: 'name' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/0f1a242e5fec420c98270af3bdc0793e/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: null,
+     _self: 'https://api.planet.com/data/v1/searches/0f1a242e5fec420c98270af3bdc0793e/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: [],
+  type: 'FeatureCollection' }
+Error: No viable images found
+    at Request.request.post [as _callback] (/home/ubuntu/planet.js:81:16)
+    at Request.self.callback (/home/ubuntu/node_modules/request/request.js:186:22)
+    at Request.emit (events.js:160:13)
+    at Request.<anonymous> (/home/ubuntu/node_modules/request/request.js:1163:10)
+    at Request.emit (events.js:160:13)
+    at IncomingMessage.<anonymous> (/home/ubuntu/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:255:19)
+    at IncomingMessage.emit (events.js:165:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+recieved R-0-067ef644-032f-9547-3bfa-75ed24ba47e0
+null
+deleted R-0-067ef644-032f-9547-3bfa-75ed24ba47e0
+saving: test
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-72fd88c1-6a9b-dfad-799d-d61f3e3841e2', name: 'test' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/d87086e8e94440d2b377e9676048b7de/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: null,
+     _self: 'https://api.planet.com/data/v1/searches/d87086e8e94440d2b377e9676048b7de/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: [],
+  type: 'FeatureCollection' }
+Error: No viable images found
+    at Request.request.post [as _callback] (/home/ubuntu/planet.js:81:16)
+    at Request.self.callback (/home/ubuntu/node_modules/request/request.js:186:22)
+    at Request.emit (events.js:160:13)
+    at Request.<anonymous> (/home/ubuntu/node_modules/request/request.js:1163:10)
+    at Request.emit (events.js:160:13)
+    at IncomingMessage.<anonymous> (/home/ubuntu/node_modules/request/request.js:1085:12)
+    at Object.onceWrapper (events.js:255:19)
+    at IncomingMessage.emit (events.js:165:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:152:19)
+recieved R-0-72fd88c1-6a9b-dfad-799d-d61f3e3841e2
+null
+deleted R-0-72fd88c1-6a9b-dfad-799d-d61f3e3841e2
+saving: naam
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-3eece52a-bb28-fa70-e5e0-9e61619e87f0', name: 'naam' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/ea3c731b7ac84ad3b2135eaf1e691f1c/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: 'https://api.planet.com/data/v1/searches/ea3c731b7ac84ad3b2135eaf1e691f1c/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6ICIyMDE4LTA0LTA1VDIwOjIzOjAyLjAwMDAwMFoiLCAic29ydF9sYXN0X2lkIjogIjEzMjkyOTdfMzA2MjkyM18yMDE4LTA0LTA1XzEwMTAiLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _self: 'https://api.planet.com/data/v1/searches/ea3c731b7ac84ad3b2135eaf1e691f1c/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: 
+   [ { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1329297_3162906_2018-04-05_1010',
+       properties: [Object],
+       type: 'Feature' },
+     { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1329297_3062923_2018-04-05_1010',
+       properties: [Object],
+       type: 'Feature' } ],
+  type: 'FeatureCollection' }
+done
+null
+{ clip: { aoi: { coordinates: [Array], type: 'Polygon' } },
+  created_on: '2018-04-06T15:08:35.670Z',
+  error_hints: [],
+  id: 'a005492f-051d-4350-a6c8-01b9769a31f5',
+  last_message: 'Preparing order',
+  last_modified: '2018-04-06T15:08:35.670Z',
+  name: 'DR-OR-0-3eece52a-bb28-fa70-e5e0-9e61619e87f0',
+  notifications: { webhook: { url: '<REDACTED>' } },
+  products: 
+   [ { item_ids: [Array],
+       item_type: 'PSOrthoTile',
+       product_bundle: 'visual' } ],
+  state: 'initializing' }
+recieved R-0-3eece52a-bb28-fa70-e5e0-9e61619e87f0
+null
+deleted R-0-3eece52a-bb28-fa70-e5e0-9e61619e87f0
+saving: Timo
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-ee5d9496-c545-8834-02d8-309d2bcdccb8', name: 'Timo' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/1f9ea85bba554de3aa1eaecd3062bfd7/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: 'https://api.planet.com/data/v1/searches/1f9ea85bba554de3aa1eaecd3062bfd7/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6ICIyMDE4LTA0LTA1VDE4OjMwOjAyLjAwMDAwMFoiLCAic29ydF9sYXN0X2lkIjogIjEzMjkyOTdfMzE2MjkwNV8yMDE4LTA0LTA1XzEwMTAiLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _self: 'https://api.planet.com/data/v1/searches/1f9ea85bba554de3aa1eaecd3062bfd7/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: 
+   [ { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1329297_3162906_2018-04-05_1010',
+       properties: [Object],
+       type: 'Feature' },
+     { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1329297_3062923_2018-04-05_1010',
+       properties: [Object],
+       type: 'Feature' },
+     { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1329297_3162905_2018-04-05_1010',
+       properties: [Object],
+       type: 'Feature' } ],
+  type: 'FeatureCollection' }
+done
+null
+{ clip: { aoi: { coordinates: [Array], type: 'Polygon' } },
+  created_on: '2018-04-08T10:39:13.146Z',
+  error_hints: [],
+  id: '1e40b6ab-53da-4063-a83f-365fe561a148',
+  last_message: 'Preparing order',
+  last_modified: '2018-04-08T10:39:13.146Z',
+  name: 'DR-OR-0-ee5d9496-c545-8834-02d8-309d2bcdccb8',
+  notifications: { webhook: { url: '<REDACTED>' } },
+  products: 
+   [ { item_ids: [Array],
+       item_type: 'PSOrthoTile',
+       product_bundle: 'visual' } ],
+  state: 'initializing' }
+recieved R-0-ee5d9496-c545-8834-02d8-309d2bcdccb8
+null
+deleted R-0-ee5d9496-c545-8834-02d8-309d2bcdccb8
+saving: naam
+{ userId: 0,
+  detectionType: 0,
+  geoJson: 
+   { type: 'Feature',
+     properties: { id: 'R-0-e3073b4b-f830-86a3-7b1e-65e0d5815704', name: 'naam' },
+     geometry: { type: 'Polygon', coordinates: [Array] } } }
+file saved
+{ _links: 
+   { _first: 'https://api.planet.com/data/v1/searches/247ad466a4184fdf9ab0ad2a7ac37c38/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _next: 'https://api.planet.com/data/v1/searches/247ad466a4184fdf9ab0ad2a7ac37c38/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6ICIyMDE4LTA0LTA2VDE4OjQwOjIyLjAwMDAwMFoiLCAic29ydF9sYXN0X2lkIjogIjEzMzE1MjlfMzE2MzMyMF8yMDE4LTA0LTA2XzEwMGMiLCAic29ydF9kZXNjIjogdHJ1ZX0%3D',
+     _self: 'https://api.planet.com/data/v1/searches/247ad466a4184fdf9ab0ad2a7ac37c38/results?_page=eyJxdWVyeV9wYXJhbXMiOiB7fSwgInNvcnRfcHJldiI6IGZhbHNlLCAicGFnZV9zaXplIjogMjUwLCAic29ydF9ieSI6ICJwdWJsaXNoZWQiLCAic29ydF9zdGFydCI6IG51bGwsICJzb3J0X2xhc3RfaWQiOiBudWxsLCAic29ydF9kZXNjIjogdHJ1ZX0%3D' },
+  features: 
+   [ { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1334253_3163320_2018-04-07_1039',
+       properties: [Object],
+       type: 'Feature' },
+     { _links: [Object],
+       _permissions: [Array],
+       geometry: [Object],
+       id: '1331529_3163320_2018-04-06_100c',
+       properties: [Object],
+       type: 'Feature' } ],
+  type: 'FeatureCollection' }
+done
+null
+{ clip: { aoi: { coordinates: [Array], type: 'Polygon' } },
+  created_on: '2018-04-08T11:44:36.484Z',
+  error_hints: [],
+  id: 'd8a4fd37-b958-417a-bd9c-c97c9057ad78',
+  last_message: 'Preparing order',
+  last_modified: '2018-04-08T11:44:36.484Z',
+  name: 'DR-OR-0-e3073b4b-f830-86a3-7b1e-65e0d5815704',
+  notifications: { webhook: { url: '<REDACTED>' } },
+  products: 
+   [ { item_ids: [Array],
+       item_type: 'PSOrthoTile',
+       product_bundle: 'visual' } ],
+  state: 'initializing' }
+recieved R-0-e3073b4b-f830-86a3-7b1e-65e0d5815704
+null
+deleted R-0-e3073b4b-f830-86a3-7b1e-65e0d5815704
+/home/ubuntu/file.js:46
+        folders.forEach((folder) => {
+                ^
+
+TypeError: Cannot read property 'forEach' of undefined
+    at fs.readdir (/home/ubuntu/file.js:46:17)
+    at FSReqWrap.oncomplete (fs.js:149:20)
+Server started
+[3;J[H[2JServer Activated port: 8002!
+[3;J[H[2J2750
+3575.0000000000005
+4482.500000000001
+5480.750000000002
+6578.825000000003
+Server Activated port: 8002!
+[3;J[H[2J2750
+3575.0000000000005
+4482.500000000001
+5480.750000000002
+6578.825000000003
+Server Activated port: 8002!
+[3;J[H[2JServer Activated port: 8002!

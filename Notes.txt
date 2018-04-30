@@ -1,0 +1,29 @@
+Het verschil berekenen tussen 2 numpy arrays,
+dit zou het verschil moeten zijn in % om een change detection alert aan te geven.
+
+Gebruik de area selection van GreendIndex in combinatie met open maps om een gebied te selecteren.
+Dat gebied zou omgezet moeten worden naar een geoJson met die GeoJSON moet de server dan dagelijks een controle doen
+
+Op dit moment denk ik dat dit de beste opzet is van zon post request
+
+Post {
+  geoJson: {}
+  changeType : "" //Change type kan bestaan uit Difference, MoreOf, LessOf, LooksLike.
+
+}
+
+Difference :
+Bij het controleren op een difference $changeType worden 2 numpy arrays van elkaar afgetrokken
+Het verschill tussen die 2 word om gezet tot een percentage dit percentage is het verschil dat ontstaan is
+
+MoreOf:
+Bij een MoreOf selecteert de gebruiker een pixel waarde, de afbeelding word gecontrolleerd op de hoeveelheid
+van die pixel zich op dit moment op de afbeelding bevindt.
+
+LessOf:
+inverted $MoreOf
+
+LooksLike:
+LooksLike heeft naar mijn mening de kleinste slaagkans. De gebruiker selecteert 2 AOI's: X en Y.
+Als X op Y lijkt zijn de condities voltooid. Hiervoor moeten X en Y even groot zijn.
+In theorie is het dan mogelijk om de $Difference methode te gebruiken om te kijken wat het verschil is tussen X en Y
